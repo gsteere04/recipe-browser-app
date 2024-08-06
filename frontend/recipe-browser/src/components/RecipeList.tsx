@@ -21,4 +21,4 @@ const RecipeList: React.FC = () => {
     );
 };
 
-export default RecipeList
+export default RecipeList;
