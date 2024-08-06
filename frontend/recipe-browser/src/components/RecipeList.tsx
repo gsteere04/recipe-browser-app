@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import api from '../services/api';
 import Recipe from './Recipe';
 
-const RecipeList: Recipe.FC = () => {
+const RecipeList: React.FC = () => {
     const[recipes, setRecipes] = useState([]);
 
     useEffect(() => {
