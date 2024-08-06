@@ -1,5 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https//localhost:'
-})
+    baseURL: 'https//localhost:5432',
+});
+
+export default api
